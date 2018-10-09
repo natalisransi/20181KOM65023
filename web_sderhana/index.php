@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WEBSITE STATIS</title>
+	<title>WipeOutCode</title>
 
 	<link rel="stylesheet" type="text/css" href="gaya.css">
 
@@ -10,7 +10,7 @@
 <body >
 
 		<div id = "header">
-		<h1  align="center"> ALAMAT WEBSITEKU </h1>
+		<h1  align="center"> WipeOutCode </h1>
 		</div>
 
 		<div id = "menu">
@@ -77,7 +77,7 @@ tahun 1942 oleh murid-murid dari lulusan universitas Clifford Berry.
 			</div>
 			<div id="footer">
 
-			<h3>  Copyright Alamat Websiteku <br></h3>
+			<h3>  Copyright WipeOutCode <br></h3>
 
 		</div>
 </div>
