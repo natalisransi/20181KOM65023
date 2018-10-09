@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WEBSITE STATIS</title>
+	<title>WipeOutCode</title>
 	<link rel="stylesheet" type="text/css" href="gaya.css">
 
 </head>
@@ -10,7 +10,7 @@
 
 	</div>
 		<div id = "header">
-		<h1  align="center"> ALAMAT WEBSITEKU </h1>
+		<h1  align="center"> WipeOutCode </h1>
 		</div>
 
 		<div id = "menu">
@@ -120,7 +120,7 @@ CPU dapat mengaskes device controler.</h4>
 
 		<div id="footer">
 
-		<h3>  Copyright Muhammad Amien Iradhat / F1A316039</h3>
+		<h3>  Copyright WipeOutCode </h3>
 		</div>
 
 
