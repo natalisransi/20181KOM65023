@@ -15,8 +15,8 @@
 
 		<div id = "menu">
 			<ul>
-				<li> <a href=""> ABOUT ME  </a></li>
-				<li> <a href="coba.php"> HOME </a></li>
+				<li> <a href="index.php"> ABOUT ME  </a></li>
+				<li> <a href="index.php"> HOME </a></li>
 			</ul>
 			<form >
 				<input type="text" name="search" value="search">
