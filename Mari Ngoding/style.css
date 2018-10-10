@@ -6,6 +6,8 @@ body{
 
 header{
 	min-height: 50px;
+	background-color: #00264d;
+	border-bottom: 10px solid #ff6600;
 }
 
 header .logo{
@@ -19,24 +21,27 @@ header nav{
 
 header li{
 	display: inline;
-	padding: 0 20px 0 20px;
+	padding: 0;
 }
 
 header a{
 	text-decoration: none;
 	text-transform: uppercase;
 	color:white;
+	padding: 25px 20px;
 }
 
 header a:hover{
 	font-weight: bold;
+	border-bottom: 10px solid #ff6600;
 }
+
+
 .container{
 	display: grid;
 	grid-template-columns:200fr 100fr 300fr;
-	border-bottom: 10px solid #ff6600;
-	background: #00264d;
 	overflow: hidden;
+
 }
 
 main{
@@ -64,8 +69,8 @@ main{
 } 
 
 .banner1profil h1{
-	margin-bottom: 70px;
-	margin-top:40px;
+	margin-bottom: 100px;
+	margin-top:30px;
 	font-size: 40px;
 }
 
@@ -104,11 +109,47 @@ main{
 	padding: 20px 70px;
 	background: #00264d;
 	border-radius: 20px;
-
 }
 
-.banner2{
-	margin: 0;
-	padding: 0;
+.tombol:hover{
+	border-color: #00264d;
+	background: #ff6600;
+}
 
+.banner2 {
+	padding-top: 50px;
+	padding-bottom: 100px;
+	margin: auto;
+	width: 85%;
+	overflow: hidden;
+}
+
+.banner2 h1{
+	text-align: center;
+	color: #ff6600;
+	font-size: 45px;
+}
+
+.banner2 img{
+	height: 100px;
+	width: 100px;
+}
+
+.kotak{
+	padding: 10px;
+	border: 3px solid #ff6600;
+	border-radius: 25px;
+	text-align: center;
+	float: left;
+	width: 28%;
+	height: 200px;
+	margin: 8px;
+}
+
+footer {
+	text-align: center;
+	border-top: 10px solid #ff6600;
+	padding: 20px;
+	background: #00264d;
+	color: white;
 }
