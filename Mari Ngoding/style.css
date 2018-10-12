@@ -12,11 +12,18 @@ header{
 
 header .logo{
 	margin: auto;
+	text-shadow: 10px 10px 10px grey;
 }
 
 header nav{
 	grid-column:3/4;
 	margin: auto;
+}
+
+header nav a{padding: 0;}
+
+header ul a{
+	padding: 25px 20px;
 }
 
 header li{
@@ -28,10 +35,9 @@ header a{
 	text-decoration: none;
 	text-transform: uppercase;
 	color:white;
-	padding: 25px 20px;
 }
 
-header a:hover{
+header ul a:hover{
 	font-weight: bold;
 	border-bottom: 10px solid #ff6600;
 }
