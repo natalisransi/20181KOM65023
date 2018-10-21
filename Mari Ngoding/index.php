@@ -12,7 +12,6 @@
 	
 	<?php 
 		// conten
-
 	
 		error_reporting(0);
 		if ($_GET["hal"]=="profil") {
@@ -27,8 +26,5 @@
 		include 'footer.html';
 	?>
 
-	<footer>
-		
-	</footer>
 </body>
 </html>
