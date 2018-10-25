@@ -1,0 +1,463 @@
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	background: #ffb21e;
+}
+
+
+/*ukuran tulisan */
+
+p {
+	margin: 10px 0px;
+	font-size: 11px;
+	text-align: justify;
+}
+
+h1 {
+	margin: 0px;
+	padding: 5px 0px 0px 0px;
+	font-size: 36px;
+	font-weight: bold;
+	color: white;
+}
+
+h2 {
+	margin: 0px;
+	padding: 5px 0px;
+	font-size: 20px;
+	font-weight: bold;
+	color:#ffffff;
+}
+
+h3 {
+	margin: 0px;
+	padding: 10px 0;
+	font-size: 34px;
+	font-weight: bold;
+	color:black;
+}
+
+h4 {
+	clear: both;
+	margin: 0px;
+	padding: 43px 0px 8px 5px;
+	font-size: 19px;
+	font-weight: bold;
+	color: white;
+}
+
+
+.readmore_black a{
+	clear: both;
+	font-size: 14px;
+	padding-top: 3px;
+	text-align: left;
+	color: #fefefe;
+	text-decoration: none;
+}
+
+.readmore_white a{
+	clear: both;
+	display: block;
+	width: 100px;
+	height: 22px;
+	padding-top: 3px;
+	background: url(images/templatemo_more_white.gif) no-repeat;
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+
+/* pengaturan kertas belakang */
+
+
+#templatemo_container {
+	margin: 0px auto;
+	width: 920px;
+	margin-top: 10px;
+}
+
+
+#templatemo_top {
+	clear: both;
+	width: 900px;
+	height: 100px;
+	padding: 0px 10px;
+	color: #FFFFFF;
+}
+
+.sitename_panel {
+	float: left;
+	width: 390px;
+	height: 113px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.sitename{
+	padding: 65px 0px 10px 0px;
+	font-size: 60px;
+	color: #fb6e26;
+	font-weight: bold;
+}
+.sitename span{
+	font-size: 40px;
+	color: black;
+	font-weight: normal;
+}
+
+.freecall_panel {
+	float: right;
+	width: 390px;
+	height: 100px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.bigfont {
+	padding: 40px 0px 10px 0px;
+	font-size: 25px;
+	color: black;
+}
+
+.freecall_panel span{
+	padding-left: 10px;
+	font-size: 25px;
+	color: black;
+}
+
+.livechat_panel {
+	float: right;
+	width: 110px;
+}
+
+.livechat_panel img{
+	border: none;
+	height: 108px;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+#templatemo_content {
+	float:left;
+	width: 880px;
+	padding: 0px 20px;
+	background:url(images/oke.gif) repeat-y;
+}
+
+.templatemo_content_top{
+	clear: both;
+	width: 920px;
+	height: 15px;
+	background: url(images/ok_top.gif) no-repeat;
+}
+
+.templatemo_content_bottom{
+	clear: both;
+	width: 920px;
+	height: 16px;
+	background: url(images/ok_bottom.gif) no-repeat;
+}
+
+/* banner */
+.banner {
+	width: 830px;
+	height: 150px;
+	padding: 10px 0px 0px 50px;
+	margin-bottom: 10px;
+	background: url(images/ok.jpg) no-repeat;
+}
+
+.banner ul {
+	margin: 20px 0px 20px 50px;
+	padding: 0px;
+	list-style: disc;
+}
+
+.banner ul li{
+	font-size: 20px;
+	color: #FFE20B;
+	padding: 0px 0px 5px 0px;
+}
+
+
+
+/* menu */
+
+#templatemo_menu{
+	clear: both;
+	width: 880px;
+	height: 35px;
+	margin: 0px 0px 10px 0px;;
+	padding: 0px;
+	background: #cccccc;
+}
+
+
+#templatemo_menu ul {
+	margin: 0px;
+	padding: 0px 0px 0px 50px;
+	list-style: none;
+	text-align: center;	
+	color: #ffffff;
+}
+
+
+#templatemo_menu ul li{
+	display: inline;
+}
+
+#templatemo_menu ul li a{
+	float: left;
+	padding: 7px 20px 2px 20px;
+	margin-right: 1px;
+	height: 25px;
+	font: 14px arial;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+#templatemo_menu ul li a:visited{
+	color: #ffffff;
+}
+
+#templatemo_menu ul li a:hover, #templatemo_menu ul li .current{
+	color: #ffffff;
+	text-decoration: none;
+	background: #285fc2;
+}
+
+
+
+/* 3 boxes */
+
+#templatemo_boxarea{
+	clear: both;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px;
+	width: 880px;
+}
+
+.box1{
+	float: left;
+	width: 280px;
+	margin-right: 19px;
+	background: #272727;
+}
+
+.box1top {
+	height: 30px;
+	padding-top: 10px;
+	text-align: center;
+	background:url(images/templatemo_box1_top.gif) no-repeat;
+}
+.body {
+	width: 250px;
+	padding: 20px 10px 0px 20px;
+	color: #FFFFFF;
+}
+
+.box2{
+	float: left;
+	width: 280px;
+	margin-right: 19px;
+	background: #272727;
+}
+.box2top {
+	height: 30px;
+	padding-top: 10px;
+	text-align: center;
+	background:url(images/templatemo_box2_top.gif) no-repeat;
+}
+
+.box3{
+	float: left;
+	width: 280px;
+	margin: 0px;
+	background: #272727;	
+}
+.box3top {
+	height: 30px;
+	padding-top: 10px;
+	text-align: center;
+	background:url(images/templatemo_box3_top.gif) no-repeat;
+}
+
+.boxbottom{
+	width:280px;
+	height: 10px;
+	 background: url(images/templatemo_box_bottom.gif) no-repeat;
+}
+* html .boxbottom{
+	width:280px;
+	height: 10px;
+	margin-bottom: -10px;
+	background: url(images/templatemo_box_bottom.gif) no-repeat;
+}
+
+.price {
+	color:#FF0000;
+	font-size: 18px;
+}
+
+
+
+
+/* 2 columns */
+
+#templatemo_2columns{
+	clear: both;
+	margin: 0px 0px 0px 0px;
+	padding: 40px 0px 10px 0px;
+	width: 880px;
+}
+
+.column1{
+	float: left;
+	width: 480px;
+	padding: 10px;
+	padding-left: 20px;
+	background: #ffffff;
+}
+
+.column2{
+	float: right;
+	width: 320px;
+	padding: 10px;
+	padding-left: 30px;
+	border-left: 1px dotted #CCCCCC;
+	background: #ffffff;
+}
+
+
+
+
+
+/* Detail page */
+
+#templatemo_features{
+	float: left;
+	margin: 0px 60px 0px 0px;
+	padding: 30px 20px 10px 20px;
+	width: 600px;
+}
+
+
+/*batas text berjalan */
+
+.titlerow {
+	clear: both;
+	float: left;
+	padding: 9px 4px;
+	width: 872px;
+	border-radius: 7px;
+	margin: 8px 19px 27px -21px;
+	font-size: 14px;
+	font-weight: bold;
+	color: red;
+	background: #333333;	
+	border-bottom: 1px solid #CCCCCC;
+}
+
+
+
+/*pengaturan buku */
+/*baground buku */
+
+.subrow {
+	width: 650px;
+	height: 300px;
+	clear: both;
+	padding: 5px 5px;
+	font-size: 12px;
+	background: gray;
+}
+.subrow img {
+	width: 66px;
+	height: 84px;
+	float:left;
+	padding: 3px;
+	border:2px solid ;
+	margin: 8px;
+}
+
+
+
+
+/*background */
+
+.name_column {
+	float: left;
+	padding-left: 10px;
+	width: 250px;
+	height: 77px
+	font-weight: bold;
+}
+
+
+.plan_column {
+	float: left;
+	width: 150px;
+	
+}
+
+.plan_column img{
+	float: left;
+	display: block;
+	width: 64px;
+	height: 77px;
+	margin: 1px;
+	padding: 2px;
+	border: 2px solid;
+
+}
+
+
+
+
+
+
+/* pengaturan footer */
+
+#templatemo_footer {
+	clear: left;
+	padding: 15px 0px 0px 0px;
+	width: 920px;
+	height: 62px;
+	color: #ffb21e;
+	line-height: 24px;
+	text-align: center;
+}
+#templatemo_footer a {
+	color: #272727;
+	text-decoration: none;
+}
+
+#templatemo_footer a:hover {
+	text-decoration: underline;
+}
+
+/* --------- end of footer --------------*/
+
+.right-side{
+	margin-top: 100px;
+	float: left;
+}
+
+.right-side li a{
+	font-size: 12px;
+	text-decoration: none;
+	color: white;
+}
+
