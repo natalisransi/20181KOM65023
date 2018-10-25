@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WEBSITE STATIS</title>
+	<title>wipeoutcode</title>
 	<link rel="stylesheet" type="text/css" href="gaya.css">
 
 </head>
 <body>
-	<div id="wrapper">
+	<div id="wrapper1">
 
 	</div>
 		<div id = "header">
-		<h1  align="center"> ALAMAT WEBSITEKU </h1>
+		<h1  align="center"> WipeOutCode </h1>
 		</div>
 
 		<div id = "menu">
 			<ul>
-				<li> <a href=""> ABOUT ME  </a></li>
-				<li> <a href="coba.php"> HOME </a></li>
+				<li> <a href=""> HOME  </a></li>
+				<li> <a href="coba.php"> ABOUT ME </a></li>
 			</ul>
 			<form >
 				<input type="text" name="search" value="search">
@@ -24,9 +24,8 @@
 			</form>
 			</div>
 
-			<div class="block-header"></div>
-
-	<div id="content">
+			
+	<div id="content1">
 			<div id="next-artikel1">
 
 				<div class="isi">
@@ -120,7 +119,7 @@ CPU dapat mengaskes device controler.</h4>
 
 		<div id="footer">
 
-		<h3>  Copyright Muhammad Amien Iradhat / F1A316039</h3>
+		<h3>  Copyright wipeoutcode 2018</h3>
 		</div>
 
 
