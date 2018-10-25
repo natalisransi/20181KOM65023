@@ -1,0 +1,154 @@
+body{
+   background-repeat: no-repeat;
+   background-size: 1350px;
+   height: 990px;
+}
+a{
+	text-decoration: inherit;
+	font-size: 30px;
+	color: white;
+}
+#menu{
+	position: absolute;
+	left: 50px;
+	top: 30px;
+}
+#menu1{
+	position: absolute;
+	left: 600px;
+	top: 30px;
+}
+
+#menu2{
+	position: absolute;
+	left: 850px;
+	top: 30px;
+}
+
+#menu3{
+	position: absolute;
+	left: 1100px;
+	top: 30px;
+}
+
+#menu4{
+	position: absolute;
+	left: 380px;
+	top: 75px;
+}
+
+#menu5{
+	position: absolute;
+	left: 75px;
+	top: 210px;
+}
+
+#menu6{
+	position: absolute;
+	left: 500px;
+	top: 200px;
+}
+#a{
+	font-size: 40px;
+}
+
+
+#judul{
+	font-size: 100px;
+}
+#menu7{
+	position: absolute;
+	left: 500px;
+	top: 250px;
+	background: blue;
+	color: white;
+	border-color: white;
+
+	width: 400px;
+}
+#slider {
+  width: 609px;
+  height: 350px;
+  overflow: hidden;
+  border: 1px solid #c69;
+  position: absolute;
+  top: 589px;
+  left: 77px;
+}
+
+.slide {
+  width: 300px;
+  height: 400px;
+  float: left;
+  position: relative;
+  left: 40px;
+  top: 400;
+}
+
+#slide-holder {
+  width: 400%;
+  position: relative;
+  left: 0;
+  -webkit-animation: scroller 10s infinite;
+          animation: scroller 10s infinite;
+}
+
+@-webkit-keyframes scroller {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  33% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+  }
+  66% {
+    -webkit-transform: translateX(-800px);
+            transform: translateX(-800px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes scroller {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  33% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+  }
+  66% {
+    -webkit-transform: translateX(-800px);
+            transform: translateX(-800px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+body {
+  font-family: sans-serif;
+}
+
+#slider {
+  margin: 0 auto;
+}
+
+.slide:nth-child(1) {
+  background: #c69;
+}
+
+.slide:nth-child(2) {
+  background: wheat;
+}
+
+.slide:nth-child(3) {
+  background: #eee;
+}
+
+
+
