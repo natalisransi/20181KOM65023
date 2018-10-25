@@ -1,0 +1,66 @@
+	body{
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: auto;
+		height: 970px;
+	}
+
+#konten1{
+	position:absolute;
+	left:30px;
+	top:145px;
+}
+button{
+	width: 80px;
+	height: 40px;
+}
+#konten2{
+	position:absolute;
+	left:350px;
+	top:145px;
+}
+#konten3{
+	position:absolute;
+	left:630px;
+	top:145px;
+}
+#konten4{
+	position:absolute;
+	left:880px;
+	top:145px;
+}
+#konten5{
+	position:absolute;
+	left:1100px;
+	top:145px;
+}
+a{
+	text-decoration: inherit;
+	font-size: 20px;
+
+}
+#judul{
+	position:absolute;
+	left:500px;
+	top:40px;
+}
+
+#berita2{
+	position:absolute;
+	left:60px;
+	top:520px;
+}
+#side{
+
+	position:absolute;
+	left:1000px;
+	top:300px;
+
+}
+#foto{
+
+	position:absolute;
+	left:950px;
+	top:350px;
+
+}

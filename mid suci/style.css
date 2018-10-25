@@ -1,0 +1,39 @@
+	body{
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: auto;
+		height: 970px;
+	}
+
+#konten1{
+	position:absolute;
+	left:40px;
+	top:40px;
+}
+
+#konten2{
+	position:absolute;
+	left:180px;
+	top:40px;
+}
+#konten3{
+	position:absolute;
+	left:380px;
+	top:40px;
+}
+#konten4{
+	position:absolute;
+	left:550px;
+	top:40px;
+}
+
+a{
+	text-decoration: inherit;
+	font-size: 20px;
+
+}
+#konten5{
+	position:absolute;
+	left:750px;
+	top:40px;
+}
