@@ -1,0 +1,20 @@
+.jumbotron h1 {
+	text-align: center;
+}
+.jumbotron {
+	background-color:skyblue;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+h1{
+	text-align: center;
+	background-color: skyblue;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+img.kanan: {
+	float: right;
+	margin: 5px;
+}
