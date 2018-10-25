@@ -1,0 +1,43 @@
+h1{
+	color: red;
+}
+
+h2{
+	color: orange;
+}
+
+body{
+	background-color: rgb(238,70,133);
+	background-image: url(koding.jpg);
+}
+
+.container{
+	background-color: rgb(76,196,201);
+}
+
+#menu_web1{
+	background: rgb(225,235,130);
+}
+
+#menu_web2{
+	background: rgb(245,130,78);
+}
+
+.meja{
+	background: rgb(70,185,115);
+}
+
+.mk1{
+	background: rgb(225,235,130);
+}
+
+
+.mk2{
+	background: rgb(245,130,78);
+}
+input[type="submit"]{
+	height: 30px;
+	width: 70px;
+	float: right;
+}
+
