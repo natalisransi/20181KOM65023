@@ -1,7 +1,7 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>WEBSITE STATIS</title>
+	<title>wipeoutcode</title>
 
 	<link rel="stylesheet" type="text/css" href="gaya.css">
 
@@ -10,13 +10,13 @@
 <body >
 
 		<div id = "header">
-		<h1  align="center"> ALAMAT WEBSITEKU </h1>
+		<h1  align="center"> WipeOutCode </h1>
 		</div>
 
 		<div id = "menu">
 			<ul>
-				<li> <a href="coba.php"> ABOUT ME  </a></li>
-				<li> <a href="coba.php"> HOME </a></li>
+				<li> <a href="coba.php"> HOME  </a></li>
+				<li> <a href="coba.php"> ABOUT ME </a></li>
 			</ul>
 			<form >
 				<input type="text" name="search" value="search">
@@ -28,7 +28,7 @@
 
 	<div id="content">
 			<div id="artikel">
-				<h2> KUMPULAN MATERI ILMU KOMPUTER</h2>
+				<h2> </h2>
 
 
 
@@ -56,27 +56,18 @@ tahun 1942 oleh murid-murid dari lulusan universitas Clifford Berry.
 					<a href="index.php"><u>Baca Selengkapnya </u>  </a></h4>
 
 			</div>
-				
-				
+
+
 				<div class="isi">
-				<h3><a href="index.php" target="blank"> Sejarah Singkat Perkembangan Komputer </a> </h3>
+				<h3><a href="index.php" target="blank"> Sejarah Perkembangan Wwindows </a> </h3>
 				<h4>
-<br>          Tahukah Anda, bahwa Atanasoff Berry Computer (ABC) merupakan komputer digital elektronik yang
-pertama didunia? Atanasoff Berry Computer pertama kali dikeluarkan pada
-tahun 1942 oleh murid-murid dari lulusan universitas Clifford Berry.
+<br>         Siapa yang tidak mengenal sistem operasi buatan Microsoft, Windows? Hampir semua orang yang menggunakan komputer
+menggunakan sistem operasi Windows. Seperti yang kamu tahu, penemu Windows untuk pertama kalinya adalah
+dua orang yang saling bersahabat sejak kecil, yaitu Bill Gates dan Paul Allen.
+Sejak diciptakan, Windows selalu mengalami perkembangan dari versi yang satu ke versi lainnya dengan kualitas
+yang semakin ditingkatkan. 
 				<br>
 					<a href="index.php"><u>Baca Selengkapnya </u>  </a></h4>
-
-			</div>
-
-			<div class="isi">
-				<h3><a href="sejarah-komputer.php" target="blank"> Sejarah Singkat Perkembangan Komputer </a> </h3>
-				<h4>
-<br>          Tahukah Anda, bahwa Atanasoff Berry Computer (ABC) merupakan komputer digital elektronik yang
-pertama didunia? Atanasoff Berry Computer pertama kali dikeluarkan pada
-tahun 1942 oleh murid-murid dari lulusan universitas Clifford Berry.
-				<br>
-					<a href=""><u>Baca Selengkapnya </u>  </a></h4>
 
 			</div>
 		</div>
@@ -85,8 +76,8 @@ tahun 1942 oleh murid-murid dari lulusan universitas Clifford Berry.
 
 			<div id="sidebar">
 
-				<h3> Apa itu Alamat Websiteku ?? </h3>
-				<p>Alamat websiteku adalah website yang dibuat untuk memenuhi tugas Perancangan dan Pemrograman website. <br> Alamat Websiteku berisi sejumlah materi perkuliahan ilmu komputer dan modul beberapa bahasa pemrograman serta informasi megenai ilmu komputer.
+				<h3> Apa itu wipeoutcode ?? </h3>
+				<p>wipeoutcode adalah website yang dibuat untuk memenuhi tugas Perancangan dan Pemrograman website. <br> Alamat Websiteku berisi sejumlah materi perkuliahan ilmu komputer dan modul beberapa bahasa pemrograman serta informasi megenai ilmu komputer.
 					</p>
 
 				<h3>Artikel Lainnya :</h3>
@@ -100,7 +91,7 @@ tahun 1942 oleh murid-murid dari lulusan universitas Clifford Berry.
 			</div>
 			<div id="footer">
 
-			<h3>  Copyright Alamat Websiteku <br></h3>
+			<h3>  Copyright wipeoutcode 2018 <br></h3>
 
 		</div>
 </div>
