@@ -1,0 +1,200 @@
+body{
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+
+
+header{
+	background-color: #00264d;
+	min-height: 50px; 
+	padding-top: 10px; /* untuk memberi jarak pada conten dalam header*/
+	border-bottom: 10px solid #ff6600; 
+	color: white;
+}
+
+
+header #text-logo{
+	float: left; 	/* float berguna untuk menentukan dia berada dimana */
+}
+ 
+ /* untuk mengubah margin tag h1 */
+header #text-logo h1{
+	margin: 0;
+}
+
+
+header nav{
+	float: right;
+	padding-top: 10px; /* untuk memberi jarak pada isi conten tag nav*/
+}
+
+header li{
+	display: inline; /* untuk mengubah list menu menjadi horizontal */
+	padding: 0 20px 0 20px; /* untuk mengatur jarak antar konten*/
+}
+
+
+header a{
+	text-decoration: none; /* nilai 'none' untuk menghilangkan style dari tag a*/
+	color: white;
+	text-transform: uppercase; /*nilai 'uppercase' untuk mengkapitalkan huruf */
+}
+
+header a:hover{ /* hover = apabila kursor berada di atas element/tag a*/
+	font-weight: bold; /* untuk mengatur ketebalan huruf*/
+}
+
+
+
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+/* kita pasang class container agar conten kita tidak menempel di dinding browser*/
+.container{
+	width: 80%;
+	margin:auto;
+	overflow: hidden; /* fungsi overflow jika nilainya hidden  adalah untuk menyembunyikan
+							conten apabila berlebih dari tinggi dari element */	
+}
+.container1{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+	display: grid; /* fungsi overflow jika nilainya hidden  adalah untuk menyembunyikan
+							conten apabila berlebih dari tinggi dari element */	
+	grid-template-columns:100fr 100fr;
+	grid-template-rows:100fr 100fr;
+}
+
+.container1 h1{
+	grid-column:1/3;
+}
+
+.container1 .kotak1{
+	border: 2px solid #ff6600;
+	border-radius: 20px;
+	text-align: center;
+	padding: 10px;
+	float: left; /*float berfungsi mendorong konten*/
+	margin: 5px;
+}
+
+.container1 .kotak2{
+	border: 2px solid #ff6600;
+	border-radius: 20px;
+	text-align: center;
+	padding: 10px;
+	float: left; /*float berfungsi mendorong konten*/
+	margin: 5px;
+}
+
+
+#banner{
+	background:url('123.jpg') no-repeat 0;
+	min-height: 95vh; /* tidak bisa hanya memanggil gambar tetapi juga menentukan ukuran minimum gambar */
+	background-size: cover;
+	text-align: center;
+	color:white;
+	margin: auto;
+	display: grid;
+	grid-template-columns:100fr 100fr 100fr;
+}
+
+#banner .box1{
+	margin: 20px;
+
+}
+
+#banner .box2 {
+	margin: 20px;
+	background-color: white;
+	color: black;
+}
+
+#banner .box3{
+	margin: 20px;
+	background-color: white;
+	color: black;
+}
+
+#banner .box2 >div{
+	margin: 20px;
+	background-color: white;
+	color: black;
+	border-bottom: 2px solid black;
+}
+
+#banner .box3 >div{
+	margin: 20px;
+	background-color: white;
+	color: black;
+	border-bottom: 2px solid black;
+}
+
+
+}
+
+#banner h1{
+	font-size: 30px;
+	padding-top: 200px;
+}
+
+#banner p{
+	font-size: 20px;
+}
+
+.tombol{
+	color: white;
+	border: 2px solid #ff6600;
+	text-decoration: none;
+	padding: 30px 70px;
+	border-radius: 30px;
+	font-weight: bold;
+	background-color: #00264d;
+	margin: 10px;
+
+}
+
+
+
+/*awal kreasi sendiri*/
+.tombol:hover{
+	border: 2px solid #00264d;
+	background-color:#ff6600 ;
+}
+/*akhir kreasi sendiri*/
+
+
+
+
+.jarak-tombol{
+	padding:50px;
+}
+
+
+
+
+#fitur{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+#fitur h1{
+	text-align: center;
+	color: #ff6600;
+	font-size: 55px;
+	font-weight: bold;;
+}
+
+
+footer{
+	text-align: center;
+	background-color:#00264d ;
+	padding: 20px;
+	color: white;
+	border-top: 10px solid #ff6600;  
+}
