@@ -1,0 +1,14 @@
+.page-header{
+	background-color: skyblue;
+}
+.container-fluid{
+	background-color:  darkmagenta;
+}
+.jumbotron{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color:purple;
+	color: white;
+	font-family: serif; 
+	text-align: center;
+}

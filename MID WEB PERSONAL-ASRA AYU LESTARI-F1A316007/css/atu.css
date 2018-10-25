@@ -1,0 +1,10 @@
+h1{
+	text-align: center;
+	text-decoration: underline;
+	background-color: purple;
+
+}
+.jumbotron img{
+	width: 200px;
+	border: 5px solid #666;
+}
