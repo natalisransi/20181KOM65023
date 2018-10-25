@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 	<title>WEBSITE STATIS</title>
@@ -24,7 +24,7 @@
 			</form>
 			</div>
 
-			
+
 
 	<div id="content">
 			<div id="artikel">
@@ -45,6 +45,17 @@
 			</div>
 
 
+
+			<div class="isi">
+				<h3><a href="sejarah-komputer.php" target="blank"> Sejarah Singkat Perkembangan Komputer </a> </h3>
+				<h4>
+<br>          Tahukah Anda, bahwa Atanasoff Berry Computer (ABC) merupakan komputer digital elektronik yang
+pertama didunia? Atanasoff Berry Computer pertama kali dikeluarkan pada
+tahun 1942 oleh murid-murid dari lulusan universitas Clifford Berry.
+				<br>
+					<a href=""><u>Baca Selengkapnya </u>  </a></h4>
+
+			</div>
 
 			<div class="isi">
 				<h3><a href="sejarah-komputer.php" target="blank"> Sejarah Singkat Perkembangan Komputer </a> </h3>
