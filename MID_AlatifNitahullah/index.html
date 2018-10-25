@@ -1,0 +1,403 @@
+<html>
+  <head>
+  	<style type="text/css">
+       body{
+       	background: #333333;
+       	margin: 0px;
+       }
+
+       #wrapper{
+       	background: blue;
+       	width: 980px;
+       	margin: 0 auto;
+       	padding:15px 10px 0px;
+       }
+
+       #headerImage{
+       	/*background: url("formasi.png");*/
+       }
+
+       #menu{
+       	background: #333333;
+       	padding: 8px;
+        text-align: center;
+       }
+
+       #menu a{
+       	font-family: arial;
+       	font-weight: bold;
+       	text-transform: uppercase;
+       	font-size: 15px;
+        text-decoration: none;
+        color:white;
+        border-left: 10px dotted white;
+        padding-left: 10px;
+        margin-right: 10px;
+       }
+
+       #menu a:hover{
+       	color:#cb3000;
+       }
+
+       #content{
+       	border: 1px dashed #cecec2;
+
+       }
+
+       #sidebar{
+       	float: left;
+       	width: 230px;
+       	border: 1px dashed #cecec2;
+       	padding: 20px;
+       }
+
+        #right-sidebar{
+        float: left;
+        width: 230px;
+        border: 1px dashed #cecec2;
+        padding: 20px;
+       }
+
+       #sidebar h3{
+       	margin-bottom: 15px;
+       	text-transform: uppercase;
+       	font-size: 14px;
+       	font-family: arial;
+        background: white;
+       }
+
+       #sidebar ul{
+       	margin: 0px;
+       	padding: 0px;
+        background: grey;
+       }
+
+       #sidebar ul li{
+        list-style-type: none;
+        border-bottom: 1px dotted #cecec2;
+        padding: 3px 0;
+       }
+
+       #sidebar ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        color: black;
+        font-family: arial;
+       }
+
+       #sidebar ul li a:hover{
+       	color: #cb3000;
+       }
+
+       #sidebar ul li:first-child{
+        border-top: 1px dotted #cecec2;
+       }
+
+       #sidebar ul li:last-child{
+       	margin-bottom: 30px;
+       }
+
+       #sidebar .lastKomen li a{
+       	text-transform: none;
+       }
+
+      #right-sidebar h3{
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: arial;
+        background: white;
+       }
+
+       #right-sidebar ul{
+        margin: 0px;
+        padding: 0px;
+        background: grey;
+       }
+
+       #right-sidebar ul li{
+        list-style-type: none;
+        border-bottom: 1px dotted #cecec2;
+        padding: 3px 0;
+       }
+
+       #right-sidebar ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        color: black;
+        font-family: arial;
+       }
+
+       #right-sidebar ul li a:hover{
+        color: #cb3000;
+       }
+
+       #right-sidebar ul li:first-child{
+        border-top: 1px dotted #cecec2;
+       }
+
+       #right-sidebar ul li:last-child{
+        margin-bottom: 30px;
+       }
+
+       #right-sidebar .lastKomen li a{
+        text-transform: none;
+       }
+
+       #mainContent{
+       	float:left;
+       	width: 400px;
+       	padding: 6px;
+        background: blue;
+        border-right: 1px dashed #cecec2;
+       }
+
+       /*#mainContent ul{
+        padding:0px;
+        margin-left: 15px;
+       }*/
+
+       #mainContent .postGrid{
+         list-style-type: none;
+         display: block;
+         width: 300px;
+         height: 450px;
+         float: center;
+         /*border-bottom: 1px dashed #cecec2;*/
+         padding:1px 50px;
+         color: #363231;
+         overflow: hidden;
+         background: white;
+
+        color:#5C5054;
+       }
+
+       #mainContent .postGrid a{
+        text-decoration: none;
+        color: #cb3000;
+        background: white;
+       }
+
+       #mainContent .postGrid .tanggal{
+        float: left;
+        border-right:1px solid #cecec2;
+        margin-right: 10px;
+        padding-right:10px; 
+       }
+
+       #mainContent .postGrid .tanggal .date{
+        background: url("date.png") no-repeat;
+        width: 47px;
+        height: 47px;
+        text-align: center;
+        padding-top: 5px;
+        display: block;
+        color: white;
+        font-family: arial;
+        font-size: 24px;
+        float:left;
+       }
+
+       #mainContent .postGrid .tanggal .bulan{
+        float: left;
+        margin-left: 5px;
+        font-family: arial;
+        color: grey;
+       }
+
+       #mainContent .postGrid .penulis{
+        float:left;
+        margin-right: 5px;
+        margin-bottom: 5px;
+       }
+
+       #mainContent .postGrid .komen{
+       }
+
+       #mainContent .last{
+       	border-left: 1px dashed #cecec2;
+       }
+
+       #mainContent .separator{
+        background: url("dot.png") 0 100% repeat-x;
+        height: 30px;
+        margin-bottom: 0px;
+        clear: both;
+       }
+
+       #mainContent .pel{
+        padding: 1px;
+        border: 0px dashed #cecec2;
+        margin-top: 30px;
+       }
+
+       #mainContent h3{
+        font-family: 'Merienda', cursive;
+        color: #2c353e;
+       }
+
+       #mainContent #pagination{
+        margin-left: 30px;
+        background: white;
+       }
+
+       #mainContent #pagination a{
+        text-decoration: none;
+        color:#cb3000;
+        font-family: arial;
+        font-weight: bold;
+        border-right: 1px dotted #cecec2;
+        margin-right: 10px;
+        padding-right: 10px;
+       }
+
+       #mainContent #pagination a:hover{
+        color: black;
+       }
+
+       #mainContent #banner img{
+        margin-left: 10px;
+        margin-top: 20px;
+        border: 1px dotted #cecec2;
+        padding: 10px;
+        margin-bottom: 20px;
+        background: white;
+       }
+
+       #footer{
+        clear: both;
+        background: url("foot.png");
+        height: 25px;
+        padding:1px;
+        padding-top: 2px;
+       }
+
+       #footer a{
+        text-decoration: none;
+        color: white;
+       }
+
+       #footer .sumber{
+        float: left;
+        
+       }
+  	</style>
+  <head>
+  <body>
+     <div id="wrapper">
+
+         <div id="formasi">
+
+         	<div id="formasiImage">
+         		<img src="formasi.png" />
+         	</div> <!-- akhir headerImage-->
+
+         	  <div id="menu">
+            <a href="#">BARANDA</a>
+            <a href="#">SEJARAH</a>
+            <a href="#">KEPENGURUSAN</a>
+            <a href="#">VISI-MISI</a>
+            <a href="#">DOWNLOAD</a>
+            <a href="#">REKRUTMENT</a>
+          </div>
+
+         </div> <!-- akhir header -->
+
+         <div id="content">
+
+         	<div id="sidebar">
+         		<h2>KELENDER</h2>
+         	    <ul>
+                   <li><a href="#">Januari</a></li>
+                   <li><a href="#">Februari</a></li>
+                   <li><a href="#">Maret</a></li>
+                   <li><a href="#">April</a></li>
+
+         	    </ul>
+
+         	    <h2>VIEW </h2>
+         	    <ul class="lastKomen">
+                   <li> <a href="#"> PELANTIKAN PENGURUS BARU</a></li>
+                   <li><a href="#">KEGIATAN LDK DI DESA BURANGASI
+                  </a></li>
+                  
+         	    </ul>
+            </div> <!-- akhir sidebar -->
+
+            <div id="mainContent">
+            	
+            		<div class="postGrid">
+                 
+                  <h3>PELANTIKAN PENGURUS BARU FORMASI</h3>
+                  <img class="pel" src="pel.jpg"/>
+                  
+                  Kegiatan pelantikan pengurus baru formasi di laksanakan di gedung DPRD Sultra, pada tanggal 23 juni 2018. Acara tersebut di hadiri oleh beberapa organisasi Cia-cia yang ada di kota kendari.
+
+                   <div class="meta">
+                    <div class="tanggal">
+                      <span class="date">23</span> 
+                      <span class="bulan"><div>Jun</div> <div>2018</div></span>
+                    </div>
+                    <div class="penulis">Ditulis oleh : Alatif Nitahullah</div>
+                    <div class="komen"><img src="komen.png"/> <a href="#"> Tidak Ada komentar</a></div>
+                  </div>
+                   </div>
+                <div class="separator"></div>
+
+            		<div class="postGrid">
+                
+                   <h3>KEGIATAN LDK DI DESA BURANGASI </h3>
+                  <img class="thumb1" src="thumb1.jpg"/>
+                  
+                  Peserta kegiatan LDK yang di laksanakan di desa Burangsi dari siswa-siswi SMA etnis Burangasi, kegiatan ini Bertujuan agar melatih karakter, dan sikap siswa-siswi yang ada di desa Burangasi.
+                  <div class="meta">
+                    <div class="tanggal">
+                      <span class="date">25</span> 
+                      <span class="bulan"><div>Okt</div> <div>2018</div></span>
+                    </div>
+                    <div class="penulis">Ditulis oleh : Alatif Nitahullah</div>
+                    <div class="komen"><img src="komen.png"/> <a href="#">Ada 10  komentar</a></div>
+                  </div></div>
+
+            		
+                <div class="separator"></div>
+
+                <div id="pagination">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">7</a>
+                </div>
+            </div> <!-- akhir mainContent -->
+
+         </div> <!-- akhir content -->
+
+          <div id="right-sidebar">
+            <h2>POSTINGAN</h2>
+              <ul>
+                   <li><a href="#">PELANTIKAN PENGURUS BARU FORMASI</a></li>
+                   <li><a href="#">KEGIATAN LDK DI DESA BURANGASI</a></li>
+              </ul>
+
+              <h2>Login </h2>
+              <ul class="lastKomen">
+                   <li> <a href="#"> Log In</a></li>
+                   <li><a href="#">Log Out</a></li>
+                  
+              </ul>
+            </div> <!-- akhir sidebar -->
+
+         <div id="footer">
+          Dibuat oleh <a href="http://alatiNitahullah.com">Alatif Nitahullah</a>
+          <span class="sumber">Terima Kasih</span>
+         </div> <!-- akhir footer -->
+
+     </div> <!-- akhir wrapper -->
+
+  </body>
+</html>
