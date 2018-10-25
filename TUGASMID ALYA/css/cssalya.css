@@ -1,0 +1,79 @@
+.container-fluid{
+	background-color: gainsboro;
+	color: white;
+	align-self: center;
+	font-weight: bold;
+	font-family: fantasy;
+}
+
+
+#jumbo{
+	background-color:mistyrose;
+	color: grey;
+	font-size: 48pt;
+	text-align: center;
+	font-family: serif;
+	font-weight: bold;
+}
+body{
+	background-color: white; 
+}
+
+#list{
+	background-color: mistyrose;
+	text-align: center;
+	font-weight: bold;
+}
+
+#contact{
+	background-color: mistyrose;
+	text-align: center;
+}
+
+.Instagram{
+	font-size: 20pt;
+	color: white;
+	font-family: serif;
+	background-color: pink;
+	text-align: center;
+}
+
+.Facebook{
+	font-size: 20pt;
+	color: white;
+	font-family: serif;
+	background-color: lightskyblue;
+	text-align: center;
+}
+
+.Email{
+	font-size: 20pt;
+	color: white;
+	font-family: serif;
+	background-color: indianred;
+	text-align: center;
+}
+
+.Github{
+	font-size: 20pt;
+	color: white;
+	font-family: serif;
+	background-color: slategrey;
+	text-align: center;
+}
+
+#about{
+	background-color: lightcyan;
+	text-align: center;
+	font-weight: bold;
+}
+
+#l1{
+	background-size: ;
+	background-color: bisque;
+}
+
+#l2{
+	background-color: azure;
+}
+
