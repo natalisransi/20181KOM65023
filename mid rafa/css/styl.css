@@ -1,0 +1,53 @@
+button{
+	width: 80px;
+	height: 40px;
+}
+
+a{
+	text-decoration: inherit;
+	font-size: 40px;
+	color: green;
+	font-family: monospace;
+
+}
+#konten{
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	width: 400px;
+	text-align: center;
+}
+
+input{
+	width: auto;
+	height: 30px;
+	font-size: 20px;
+}
+label{
+	font-size: 20px;
+}
+#home{
+       position: absolute;
+       top: 70px;
+       left: 30px;
+      }
+#profil{
+	position: absolute;
+    top: 70px;
+    left: 300px;		
+}
+#sejarah{
+   position: absolute;
+   top: 70px;
+   left: 600px;
+}
+#kontak{
+   position: absolute;
+   top: 70px;
+   left: 900px;
+}
+#konten-kontak{
+   position: absolute;
+   top: 200px;
+   left: 600px;
+}

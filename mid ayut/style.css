@@ -1,0 +1,13 @@
+	body{
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: auto;
+		height: 690px;
+	}
+
+#home{
+		position:absolute;
+		left: 100px;
+		top: 100px;
+}
+
