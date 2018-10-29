@@ -1,0 +1,55 @@
+	body{
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: auto;
+		height: 970px;
+	}
+
+#menu{
+	position:absolute;
+	left:220px;
+	top:84px;
+}
+#menu1{
+	position:absolute;
+	left:380px;
+	top:84px;
+}
+#menu2{
+	position:absolute;
+	left:580px;
+	top:84px;
+}
+#cari{
+	position:absolute;
+	left:900px;
+	top:82px;
+}
+
+a{
+	text-decoration: inherit;
+	font-size: 20px;
+	color: inherit;
+
+}
+input{
+    width: 200px;
+    height: 20px;
+}
+#icon-cari{
+	position:absolute;
+	left:1070px;
+	top:84px;
+}
+#icon{
+	position:absolute;
+	left:1060px;
+	top:84px;
+}
+#konten{
+	position:absolute;
+	left:125px;
+	top:800px;
+}
+
+
