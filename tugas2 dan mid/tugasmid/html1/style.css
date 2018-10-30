@@ -1,0 +1,39 @@
+body{
+  background-color:  #FAF0E6;
+}
+ul {
+  list-style:none; /*menghilangkan dot list*/
+}
+a {
+  text-decoration:none; /*menghilangkan garis bawah*/
+  color: #000; /*memberi warna hitam*/
+  font-weight:bold; /*menebalkan font menu*/
+  Padding-top : 15px ;
+  Padding-rigth : 25px;
+  Padding-bottom : 25px;
+  Padding-left : 40px;
+
+}
+li {
+  display:inline; /*membuat menu menjadi Horizontal*/
+  background-color: #1abc9c; /*ngasi warna hijau di background menunya*/
+  float:left; /*bikin nempel ke kiri biar ga ada spasi kosong*/
+  padding: 10px;
+  padding-right: 200px;
+  border-right:solid 1px #000; /*ngasi border kanan menu untuk pembatas*/
+}
+li:last-child {
+  border-right:none; /*untuk ngilangin border kanan di list menu yg pallingn akhir*/
+}
+li:hover {
+ background-color:#ccc; /*untuk ngasi effek ganti warna background pas mouse lewat*/
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+h4{
+  text-align: left;
+  line-height: 30px
+
+}
